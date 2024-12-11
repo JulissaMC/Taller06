@@ -67,17 +67,7 @@ public class Empleado {
 }
 
 
-public class Sistemas extends Departamento{
-    public Sistemas(String nombre){
-        this.dnombre= nombre;
-    }
-    public double AddSalario(){
-        return 20;
-    }
-    public String getNombre(){
-        return dnombre;
-    }
-}
+
 public class Contabilidad extends Departamento{
     public Contabilidad(String nombre){
         this.dnombre =nombre;
