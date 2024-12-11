@@ -1,0 +1,5 @@
+abstract class Departamento{
+    protected String dnombre;
+    abstract double AddSalario();
+    abstract String getNombre();
+}
