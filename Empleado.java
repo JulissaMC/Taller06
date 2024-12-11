@@ -111,14 +111,14 @@ public class Contabilidad extends Departamento{
         return dnombre;
     }
 }
-public class Medico extends Departamento{
+public class Medico extends Departamento{ //no era neesario, por si acaso
     public Contabilidad(String nombre){
         this.dnombre =nombre;
     }
     public double AddSalario(){
         return  0;
     }
-    public String getNombre(){
+    public String getNombre(){ 
         return dnombre;
     }
 }
