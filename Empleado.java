@@ -66,11 +66,7 @@ public class Empleado {
     // Más metodos
 }
 
-abstract class Departamento{
-    protected String dnombre;
-    abstract double AddSalario();
-    abstract String getNombre();
-}
+
 public class Sistemas extends Departamento{
     public Sistemas(String nombre){
         this.dnombre= nombre;
