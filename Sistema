@@ -1,0 +1,11 @@
+public class Sistemas extends Departamento{
+    public Sistemas(String nombre){
+        this.dnombre= nombre;
+    }
+    public double AddSalario(){
+        return 20;
+    }
+    public String getNombre(){
+        return dnombre;
+    }
+}
